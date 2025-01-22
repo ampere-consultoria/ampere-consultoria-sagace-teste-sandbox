@@ -38,7 +38,7 @@ plt.savefig('grafico_seno.png', dpi=300)
 size_in_bytes = 1 * 1024 * 1024
 
 # Gerar uma string de 1 MB composta por caracteres repetidos (por exemplo, "a")
-one_mb_string = "a" * size_in_bytes
+mb_string = "a" * size_in_bytes
 
 # Verificar o tamanho da string
-print(f"Tamanho da string: {len(one_mb_string)} bytes")
+print(f"Tamanho da string: {len(mb_string)} bytes:\n{md_string}")
