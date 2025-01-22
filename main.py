@@ -41,4 +41,4 @@ size_in_bytes = 0.5 * 1024 * 1024
 mb_string = "a" * size_in_bytes
 
 # Verificar o tamanho da string
-print(f"Tamanho da string: {len(mb_string)} bytes:\n{md_string}")
+print(f"{md_string}")
