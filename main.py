@@ -33,3 +33,12 @@ plt.grid(True, linestyle='--', alpha=0.6)
 
 # Salvando o gráfico em um arquivo
 plt.savefig('grafico_seno.png', dpi=300)
+
+# Tamanho desejado em bytes (1 MB = 1 * 1024 * 1024 bytes)
+size_in_bytes = 1 * 1024 * 1024
+
+# Gerar uma string de 1 MB composta por caracteres repetidos (por exemplo, "a")
+one_mb_string = "a" * size_in_bytes
+
+# Verificar o tamanho da string
+print(f"Tamanho da string: {len(one_mb_string)} bytes")
